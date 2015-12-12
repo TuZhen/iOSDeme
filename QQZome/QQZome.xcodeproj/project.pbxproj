@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C76F0601C15787800257E4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F05F1C15787800257E4E /* main.m */; };
+		2C76F0631C15787800257E4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0621C15787800257E4E /* AppDelegate.m */; };
+		2C76F0661C15787800257E4E /* TZLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0651C15787800257E4E /* TZLoginController.m */; };
+		2C76F0691C15787800257E4E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C76F0671C15787800257E4E /* Login.storyboard */; };
+		2C76F06C1C15787800257E4E /* QQZome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F06A1C15787800257E4E /* QQZome.xcdatamodeld */; };
+		2C76F06E1C15787800257E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C76F06D1C15787800257E4E /* Assets.xcassets */; };
+		2C76F07C1C15787800257E4E /* QQZomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F07B1C15787800257E4E /* QQZomeTests.m */; };
+		2C76F0871C15787800257E4E /* QQZomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0861C15787800257E4E /* QQZomeUITests.m */; };
+		2C76F09D1C1598CD00257E4E /* TZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F09C1C1598CD00257E4E /* TZMainViewController.m */; };
+		2C76F0A71C15B23B00257E4E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0A01C15B23B00257E4E /* SVIndefiniteAnimatedView.m */; };
+		2C76F0A81C15B23B00257E4E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C76F0A21C15B23B00257E4E /* SVProgressHUD.bundle */; };
+		2C76F0A91C15B23B00257E4E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0A41C15B23B00257E4E /* SVProgressHUD.m */; };
+		2C76F0AA1C15B23B00257E4E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0A61C15B23B00257E4E /* SVRadialGradientLayer.m */; };
+		2C76F0B01C15B56D00257E4E /* TZTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0AF1C15B56D00257E4E /* TZTabBarView.m */; };
+		2C76F0B61C15BCE000257E4E /* TZDockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0B51C15BCE000257E4E /* TZDockView.m */; };
+		2C76F0BF1C15C2B300257E4E /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0BA1C15C2B300257E4E /* UIColor+RandomColor.m */; };
+		2C76F0C01C15C2B300257E4E /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0BC1C15C2B300257E4E /* UIImage+Fit.m */; };
+		2C76F0C11C15C2B300257E4E /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0BE1C15C2B300257E4E /* UIView+AdjustFrame.m */; };
+		2C76F0C41C15CD1300257E4E /* TZBottomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0C31C15CD1300257E4E /* TZBottomMenu.m */; };
+		2C76F0C71C15D73B00257E4E /* TZBottomMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0C61C15D73B00257E4E /* TZBottomMenuItem.m */; };
+		2C76F0CE1C15E27300257E4E /* TZPersonalCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C76F0CD1C15E27300257E4E /* TZPersonalCenterButton.m */; };
+		2CC9500E1C19187800CFBAD8 /* TZBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9500D1C19187800CFBAD8 /* TZBarButtonItem.m */; };
+		2CC950111C196DB100CFBAD8 /* TZAllstartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC950101C196DB100CFBAD8 /* TZAllstartsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C76F0781C15787800257E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C76F0531C15787800257E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C76F05A1C15787800257E4E;
+			remoteInfo = QQZome;
+		};
+		2C76F0831C15787800257E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C76F0531C15787800257E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C76F05A1C15787800257E4E;
+			remoteInfo = QQZome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C76F05B1C15787800257E4E /* QQZome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQZome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C76F05F1C15787800257E4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C76F0611C15787800257E4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C76F0621C15787800257E4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C76F0641C15787800257E4E /* TZLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLoginController.h; sourceTree = "<group>"; };
+		2C76F0651C15787800257E4E /* TZLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLoginController.m; sourceTree = "<group>"; };
+		2C76F0681C15787800257E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		2C76F06B1C15787800257E4E /* QQZome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQZome.xcdatamodel; sourceTree = "<group>"; };
+		2C76F06D1C15787800257E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C76F0721C15787800257E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C76F0771C15787800257E4E /* QQZomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQZomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C76F07B1C15787800257E4E /* QQZomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZomeTests.m; sourceTree = "<group>"; };
+		2C76F07D1C15787800257E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C76F0821C15787800257E4E /* QQZomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQZomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C76F0861C15787800257E4E /* QQZomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZomeUITests.m; sourceTree = "<group>"; };
+		2C76F0881C15787800257E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C76F09B1C1598CD00257E4E /* TZMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZMainViewController.h; sourceTree = "<group>"; };
+		2C76F09C1C1598CD00257E4E /* TZMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZMainViewController.m; sourceTree = "<group>"; };
+		2C76F09F1C15B23B00257E4E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		2C76F0A01C15B23B00257E4E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2C76F0A11C15B23B00257E4E /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		2C76F0A21C15B23B00257E4E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2C76F0A31C15B23B00257E4E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		2C76F0A41C15B23B00257E4E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		2C76F0A51C15B23B00257E4E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		2C76F0A61C15B23B00257E4E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		2C76F0AE1C15B56D00257E4E /* TZTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTabBarView.h; sourceTree = "<group>"; };
+		2C76F0AF1C15B56D00257E4E /* TZTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTabBarView.m; sourceTree = "<group>"; };
+		2C76F0B31C15BBC800257E4E /* TZGlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZGlobalDefine.h; sourceTree = "<group>"; };
+		2C76F0B41C15BCE000257E4E /* TZDockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZDockView.h; sourceTree = "<group>"; };
+		2C76F0B51C15BCE000257E4E /* TZDockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZDockView.m; sourceTree = "<group>"; };
+		2C76F0B71C15BE3400257E4E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C76F0B91C15C2B300257E4E /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		2C76F0BA1C15C2B300257E4E /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		2C76F0BB1C15C2B300257E4E /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		2C76F0BC1C15C2B300257E4E /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		2C76F0BD1C15C2B300257E4E /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		2C76F0BE1C15C2B300257E4E /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		2C76F0C21C15CD1300257E4E /* TZBottomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZBottomMenu.h; sourceTree = "<group>"; };
+		2C76F0C31C15CD1300257E4E /* TZBottomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZBottomMenu.m; sourceTree = "<group>"; };
+		2C76F0C51C15D73B00257E4E /* TZBottomMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZBottomMenuItem.h; sourceTree = "<group>"; };
+		2C76F0C61C15D73B00257E4E /* TZBottomMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZBottomMenuItem.m; sourceTree = "<group>"; };
+		2C76F0CC1C15E27300257E4E /* TZPersonalCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPersonalCenterButton.h; sourceTree = "<group>"; };
+		2C76F0CD1C15E27300257E4E /* TZPersonalCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPersonalCenterButton.m; sourceTree = "<group>"; };
+		2CC9500C1C19187800CFBAD8 /* TZBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZBarButtonItem.h; sourceTree = "<group>"; };
+		2CC9500D1C19187800CFBAD8 /* TZBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZBarButtonItem.m; sourceTree = "<group>"; };
+		2CC9500F1C196DB100CFBAD8 /* TZAllstartsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAllstartsController.h; sourceTree = "<group>"; };
+		2CC950101C196DB100CFBAD8 /* TZAllstartsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAllstartsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C76F0581C15787800257E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C76F0741C15787800257E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C76F07F1C15787800257E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C76F0521C15787800257E4E = {
+			isa = PBXGroup;
+			children = (
+				2C76F05D1C15787800257E4E /* QQZome */,
+				2C76F07A1C15787800257E4E /* QQZomeTests */,
+				2C76F0851C15787800257E4E /* QQZomeUITests */,
+				2C76F05C1C15787800257E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C76F05C1C15787800257E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F05B1C15787800257E4E /* QQZome.app */,
+				2C76F0771C15787800257E4E /* QQZomeTests.xctest */,
+				2C76F0821C15787800257E4E /* QQZomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C76F05D1C15787800257E4E /* QQZome */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0941C1596F300257E4E /* Classes */,
+				2C76F0611C15787800257E4E /* AppDelegate.h */,
+				2C76F0621C15787800257E4E /* AppDelegate.m */,
+				2C76F06D1C15787800257E4E /* Assets.xcassets */,
+				2C76F0721C15787800257E4E /* Info.plist */,
+				2C76F06A1C15787800257E4E /* QQZome.xcdatamodeld */,
+				2C76F05E1C15787800257E4E /* Supporting Files */,
+				2C76F0B71C15BE3400257E4E /* PrefixHeader.pch */,
+			);
+			path = QQZome;
+			sourceTree = "<group>";
+		};
+		2C76F05E1C15787800257E4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F05F1C15787800257E4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C76F07A1C15787800257E4E /* QQZomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F07B1C15787800257E4E /* QQZomeTests.m */,
+				2C76F07D1C15787800257E4E /* Info.plist */,
+			);
+			path = QQZomeTests;
+			sourceTree = "<group>";
+		};
+		2C76F0851C15787800257E4E /* QQZomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0861C15787800257E4E /* QQZomeUITests.m */,
+				2C76F0881C15787800257E4E /* Info.plist */,
+			);
+			path = QQZomeUITests;
+			sourceTree = "<group>";
+		};
+		2C76F0941C1596F300257E4E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0B81C15C2B300257E4E /* Category */,
+				2C76F0AB1C15B24000257E4E /* Lib */,
+				2C76F0961C15970400257E4E /* Main */,
+				2C76F0951C1596FB00257E4E /* Login */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2C76F0951C1596FB00257E4E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0971C15986E00257E4E /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2C76F0961C15970400257E4E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0B21C15BB9400257E4E /* Common */,
+				2C76F0CA1C15D99C00257E4E /* Dock */,
+				2C76F0991C15989E00257E4E /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2C76F0971C15986E00257E4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0641C15787800257E4E /* TZLoginController.h */,
+				2C76F0651C15787800257E4E /* TZLoginController.m */,
+				2C76F0981C15987F00257E4E /* View */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2C76F0981C15987F00257E4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0671C15787800257E4E /* Login.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2C76F0991C15989E00257E4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F09B1C1598CD00257E4E /* TZMainViewController.h */,
+				2C76F09C1C1598CD00257E4E /* TZMainViewController.m */,
+				2CC9500F1C196DB100CFBAD8 /* TZAllstartsController.h */,
+				2CC950101C196DB100CFBAD8 /* TZAllstartsController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2C76F09E1C15B23B00257E4E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F09F1C15B23B00257E4E /* SVIndefiniteAnimatedView.h */,
+				2C76F0A01C15B23B00257E4E /* SVIndefiniteAnimatedView.m */,
+				2C76F0A11C15B23B00257E4E /* SVProgressHUD-Prefix.pch */,
+				2C76F0A21C15B23B00257E4E /* SVProgressHUD.bundle */,
+				2C76F0A31C15B23B00257E4E /* SVProgressHUD.h */,
+				2C76F0A41C15B23B00257E4E /* SVProgressHUD.m */,
+				2C76F0A51C15B23B00257E4E /* SVRadialGradientLayer.h */,
+				2C76F0A61C15B23B00257E4E /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		2C76F0AB1C15B24000257E4E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F09E1C15B23B00257E4E /* SVProgressHUD */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		2C76F0B21C15BB9400257E4E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0B31C15BBC800257E4E /* TZGlobalDefine.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2C76F0B81C15C2B300257E4E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0B91C15C2B300257E4E /* UIColor+RandomColor.h */,
+				2C76F0BA1C15C2B300257E4E /* UIColor+RandomColor.m */,
+				2C76F0BB1C15C2B300257E4E /* UIImage+Fit.h */,
+				2C76F0BC1C15C2B300257E4E /* UIImage+Fit.m */,
+				2C76F0BD1C15C2B300257E4E /* UIView+AdjustFrame.h */,
+				2C76F0BE1C15C2B300257E4E /* UIView+AdjustFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2C76F0C81C15D94000257E4E /* Bottom */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0C21C15CD1300257E4E /* TZBottomMenu.h */,
+				2C76F0C31C15CD1300257E4E /* TZBottomMenu.m */,
+				2C76F0C51C15D73B00257E4E /* TZBottomMenuItem.h */,
+				2C76F0C61C15D73B00257E4E /* TZBottomMenuItem.m */,
+			);
+			name = Bottom;
+			sourceTree = "<group>";
+		};
+		2C76F0C91C15D98D00257E4E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0AE1C15B56D00257E4E /* TZTabBarView.h */,
+				2C76F0AF1C15B56D00257E4E /* TZTabBarView.m */,
+				2CC9500C1C19187800CFBAD8 /* TZBarButtonItem.h */,
+				2CC9500D1C19187800CFBAD8 /* TZBarButtonItem.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		2C76F0CA1C15D99C00257E4E /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0B41C15BCE000257E4E /* TZDockView.h */,
+				2C76F0B51C15BCE000257E4E /* TZDockView.m */,
+				2C76F0CB1C15E24100257E4E /* PersonalCenter */,
+				2C76F0C81C15D94000257E4E /* Bottom */,
+				2C76F0C91C15D98D00257E4E /* TabBar */,
+			);
+			name = Dock;
+			sourceTree = "<group>";
+		};
+		2C76F0CB1C15E24100257E4E /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				2C76F0CC1C15E27300257E4E /* TZPersonalCenterButton.h */,
+				2C76F0CD1C15E27300257E4E /* TZPersonalCenterButton.m */,
+			);
+			name = PersonalCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C76F05A1C15787800257E4E /* QQZome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C76F08B1C15787800257E4E /* Build configuration list for PBXNativeTarget "QQZome" */;
+			buildPhases = (
+				2C76F0571C15787800257E4E /* Sources */,
+				2C76F0581C15787800257E4E /* Frameworks */,
+				2C76F0591C15787800257E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQZome;
+			productName = QQZome;
+			productReference = 2C76F05B1C15787800257E4E /* QQZome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C76F0761C15787800257E4E /* QQZomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C76F08E1C15787800257E4E /* Build configuration list for PBXNativeTarget "QQZomeTests" */;
+			buildPhases = (
+				2C76F0731C15787800257E4E /* Sources */,
+				2C76F0741C15787800257E4E /* Frameworks */,
+				2C76F0751C15787800257E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C76F0791C15787800257E4E /* PBXTargetDependency */,
+			);
+			name = QQZomeTests;
+			productName = QQZomeTests;
+			productReference = 2C76F0771C15787800257E4E /* QQZomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C76F0811C15787800257E4E /* QQZomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C76F0911C15787800257E4E /* Build configuration list for PBXNativeTarget "QQZomeUITests" */;
+			buildPhases = (
+				2C76F07E1C15787800257E4E /* Sources */,
+				2C76F07F1C15787800257E4E /* Frameworks */,
+				2C76F0801C15787800257E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C76F0841C15787800257E4E /* PBXTargetDependency */,
+			);
+			name = QQZomeUITests;
+			productName = QQZomeUITests;
+			productReference = 2C76F0821C15787800257E4E /* QQZomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C76F0531C15787800257E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TZ;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					2C76F05A1C15787800257E4E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W3F7WXVANB;
+					};
+					2C76F0761C15787800257E4E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W3F7WXVANB;
+						TestTargetID = 2C76F05A1C15787800257E4E;
+					};
+					2C76F0811C15787800257E4E = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = W3F7WXVANB;
+						TestTargetID = 2C76F05A1C15787800257E4E;
+					};
+				};
+			};
+			buildConfigurationList = 2C76F0561C15787800257E4E /* Build configuration list for PBXProject "QQZome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C76F0521C15787800257E4E;
+			productRefGroup = 2C76F05C1C15787800257E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C76F05A1C15787800257E4E /* QQZome */,
+				2C76F0761C15787800257E4E /* QQZomeTests */,
+				2C76F0811C15787800257E4E /* QQZomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C76F0591C15787800257E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76F06E1C15787800257E4E /* Assets.xcassets in Resources */,
+				2C76F0A81C15B23B00257E4E /* SVProgressHUD.bundle in Resources */,
+				2C76F0691C15787800257E4E /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C76F0751C15787800257E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C76F0801C15787800257E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C76F0571C15787800257E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76F06C1C15787800257E4E /* QQZome.xcdatamodeld in Sources */,
+				2C76F0C71C15D73B00257E4E /* TZBottomMenuItem.m in Sources */,
+				2CC950111C196DB100CFBAD8 /* TZAllstartsController.m in Sources */,
+				2C76F09D1C1598CD00257E4E /* TZMainViewController.m in Sources */,
+				2C76F0661C15787800257E4E /* TZLoginController.m in Sources */,
+				2C76F0C01C15C2B300257E4E /* UIImage+Fit.m in Sources */,
+				2C76F0C11C15C2B300257E4E /* UIView+AdjustFrame.m in Sources */,
+				2C76F0AA1C15B23B00257E4E /* SVRadialGradientLayer.m in Sources */,
+				2CC9500E1C19187800CFBAD8 /* TZBarButtonItem.m in Sources */,
+				2C76F0A91C15B23B00257E4E /* SVProgressHUD.m in Sources */,
+				2C76F0C41C15CD1300257E4E /* TZBottomMenu.m in Sources */,
+				2C76F0B01C15B56D00257E4E /* TZTabBarView.m in Sources */,
+				2C76F0631C15787800257E4E /* AppDelegate.m in Sources */,
+				2C76F0B61C15BCE000257E4E /* TZDockView.m in Sources */,
+				2C76F0601C15787800257E4E /* main.m in Sources */,
+				2C76F0BF1C15C2B300257E4E /* UIColor+RandomColor.m in Sources */,
+				2C76F0A71C15B23B00257E4E /* SVIndefiniteAnimatedView.m in Sources */,
+				2C76F0CE1C15E27300257E4E /* TZPersonalCenterButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C76F0731C15787800257E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76F07C1C15787800257E4E /* QQZomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C76F07E1C15787800257E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76F0871C15787800257E4E /* QQZomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C76F0791C15787800257E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C76F05A1C15787800257E4E /* QQZome */;
+			targetProxy = 2C76F0781C15787800257E4E /* PBXContainerItemProxy */;
+		};
+		2C76F0841C15787800257E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C76F05A1C15787800257E4E /* QQZome */;
+			targetProxy = 2C76F0831C15787800257E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C76F0671C15787800257E4E /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C76F0681C15787800257E4E /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C76F0891C15787800257E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C76F08A1C15787800257E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C76F08C1C15787800257E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = QQZome/PrefixHeader.pch;
+				INFOPLIST_FILE = QQZome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.QQZome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2C76F08D1C15787800257E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = QQZome/PrefixHeader.pch;
+				INFOPLIST_FILE = QQZome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.QQZome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		2C76F08F1C15787800257E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQZomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.QQZomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQZome.app/QQZome";
+			};
+			name = Debug;
+		};
+		2C76F0901C15787800257E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQZomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.QQZomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQZome.app/QQZome";
+			};
+			name = Release;
+		};
+		2C76F0921C15787800257E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQZomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.QQZomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQZome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2C76F0931C15787800257E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQZomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.QQZomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQZome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C76F0561C15787800257E4E /* Build configuration list for PBXProject "QQZome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C76F0891C15787800257E4E /* Debug */,
+				2C76F08A1C15787800257E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C76F08B1C15787800257E4E /* Build configuration list for PBXNativeTarget "QQZome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C76F08C1C15787800257E4E /* Debug */,
+				2C76F08D1C15787800257E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C76F08E1C15787800257E4E /* Build configuration list for PBXNativeTarget "QQZomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C76F08F1C15787800257E4E /* Debug */,
+				2C76F0901C15787800257E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C76F0911C15787800257E4E /* Build configuration list for PBXNativeTarget "QQZomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C76F0921C15787800257E4E /* Debug */,
+				2C76F0931C15787800257E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C76F06A1C15787800257E4E /* QQZome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C76F06B1C15787800257E4E /* QQZome.xcdatamodel */,
+			);
+			currentVersion = 2C76F06B1C15787800257E4E /* QQZome.xcdatamodel */;
+			path = QQZome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C76F0531C15787800257E4E /* Project object */;
+}
